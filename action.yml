@@ -1,0 +1,14 @@
+name : 'Thankyou Action'
+description : 'Say "Thankyou" to all new request'
+author : 'rajat'
+
+inputs :
+  GITHUB_TOKEN : 
+    description : 'Github token'
+    required: true 
+  TENOR_TOKEN :
+    description : 'tenor token'
+    required: true 
+runs :
+  using : 'node12'
+  main : 'dist/index.js'
